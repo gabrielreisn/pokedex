@@ -1,7 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
+import logo from "../logo.svg";
 import "./App.css";
-
+import { PokemonContainer } from "../containers/PokemonContainer";
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -19,6 +19,7 @@ const App: React.FC = () => {
           Learn React
         </a>
       </header>
+      <PokemonContainer />
     </div>
   );
 };
