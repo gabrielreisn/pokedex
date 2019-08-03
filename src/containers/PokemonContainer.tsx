@@ -4,7 +4,9 @@ import { queryVariables, queryResult } from "./types";
 import { client } from "../graphql";
 import query from "../graphql/pokemonQuery";
 
-const FETCH_FIRST_N_POKEMONS: number = 1;
+import { PokemonFrontCard } from "../components/PokemonFrontCard";
+
+const FETCH_FIRST_N_POKEMONS: number = 15;
 
 const variables: queryVariables = {
   first: FETCH_FIRST_N_POKEMONS
@@ -14,10 +16,12 @@ export const PokemonContainer: React.FC = () => {
   return (
     <ApolloProvider client={client}>
       <Query<queryResult, queryVariables> query={query} variables={variables}>
-        {({ loading, error, data }) => {
+        {({ loading, error, data }: any) => {
           if (loading) return <p>Loading...</p>;
           if (error) return <p>Error :(</p>;
-          return <div>foo</div>;
+          return data.pokemons.map(({ number, name, types }: any) => (
+            <PokemonFrontCard number={number} name={name} types={types} />
+          ));
         }}
       </Query>
     </ApolloProvider>
