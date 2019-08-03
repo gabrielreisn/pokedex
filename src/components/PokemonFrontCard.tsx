@@ -1,5 +1,7 @@
 import React from "react";
-import { imageUrlFromPokemonId, pokemonTagType } from "../utils";
+import styled from "styled-components";
+import { TypeTag } from "./TypeTag";
+import { imageUrlFromPokemonId } from "../utils";
 
 type Props = {
   number: number;
@@ -7,91 +9,81 @@ type Props = {
   types: [string];
 };
 
-type tagProps = { value: string };
+const ImageWrapper = styled.img`
+  width: 100px;
+  align-self: center;
+  margin: 30px;
+  min-width: 100px;
+`;
 
-const TypeTag = ({ value }: tagProps) => (
-  <span
-    style={{
-      background: pokemonTagType(value),
-      borderRadius: "3px",
-      padding: "1px 3px",
-      margin: "0 3px"
-    }}
-  >
-    {value}
-  </span>
-);
+const CardWrapper = styled.div`
+  background: rgba(169, 178, 186, 0.2);
+  width: 200px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  border-radius: 8px;
+  border: 1px solid rgba(169, 178, 186, 0.5);
+`;
+
+const Trapeizoid = styled.div`
+  position: relative;
+  border-bottom: 20px solid white;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  height: 0;
+  width: 60px;
+  align-self: center;
+  text-align: center;
+`;
+
+const TagWrapper = styled.div`
+  align-self: flex-start;
+  margin: 5px 10px;
+`;
+
+const NameWrapper = styled.div`
+  align-self: flex-start;
+  margin: 0 10px;
+  font-weight: 500;
+`;
+
+const NumberWrapper = styled.span`
+  position: relative;
+  top: 4px;
+  font-weight: 600;
+  color: gray;
+`;
+
+const ContentBox = styled.div`
+  height: 100%;
+  background: white;
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column-reverse;
+  padding: 0 0 10px 0;
+`;
 
 export const PokemonFrontCard = ({ number, name, types }: Props) => {
   return (
-    <div
-      style={{
-        background: "rgba(169, 178, 186,0.2)",
-        width: "200px",
-        height: "270px",
-        display: "flex",
-        flexDirection: "column",
-        margin: "50px auto",
-        borderRadius: "8px",
-        border: "1px solid rgba(169, 178, 186, 0.5)"
-      }}
-    >
-      <img
+    <CardWrapper>
+      <ImageWrapper
         src={imageUrlFromPokemonId(number)}
         alt={`pokemon ${name}`}
-        style={{
-          width: "100px",
-          alignSelf: "center",
-          margin: "30px",
-          minWidth: "100px"
-        }}
       />
-      <div
-        id="trap"
-        style={{
-          position: "relative",
-          borderBottom: "20px solid white",
-          borderLeft: "20px solid transparent",
-          borderRight: "20px solid transparent",
-          height: 0,
-          width: "60px",
-          alignSelf: "center",
-          textAlign: "center"
-        }}
-      >
-        <span
-          style={{
-            position: "relative",
-            top: "4px",
-            fontWeight: 600,
-            color: "gray"
-          }}
-        >
-          #{number}
-        </span>
-      </div>
-      <div
-        style={{
-          height: "100%",
-          background: "white",
-          borderRadius: "0 0 8px 8px",
-          display: "flex",
-          alignItems: "flex-start",
-          flexDirection: "column-reverse",
-          padding: "0 0 10px 0"
-        }}
-      >
-        <div
-          style={{ alignSelf: "flex-start", margin: "0 10px", fontWeight: 500 }}
-        >
-          {name}
-        </div>
-        <div style={{ alignSelf: "flex-start", margin: "5px 10px" }}>
+      <Trapeizoid>
+        <NumberWrapper>#{number}</NumberWrapper>
+      </Trapeizoid>
+      <ContentBox>
+        <TagWrapper>
           {types.map(value => (
             <TypeTag value={value} />
           ))}
-        </div>
-      </div>
-    </div>
+        </TagWrapper>
+        <NameWrapper>{name}</NameWrapper>
+      </ContentBox>
+    </CardWrapper>
   );
 };
