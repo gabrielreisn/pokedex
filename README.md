@@ -5,6 +5,11 @@ This repo is a side-project for testing some a few technologies and building a c
 The final production version can be used here:
 https://ts-pokedex.herokuapp.com/
 
+Running the project:
+
+- `$ yarn` ( for instaling the depdendencies )
+- `$ yarn start`
+
 Tech used:
 
 ```
