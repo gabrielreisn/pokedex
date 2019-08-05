@@ -8,8 +8,6 @@ export const ImageWrapper = styled.img`
 `;
 
 export const CardWrapper = styled.section`
-  /* use radial-grad for front-card and solid color for back */
-  /* background: radial-gradient(rgba(169,178,186,0.4), transparent); */
   background: rgba(169, 178, 186, 0.2);
   width: 200px;
   height: 270px;

@@ -1,6 +1,6 @@
 import React from "react";
 import { ApolloProvider, Query } from "react-apollo";
-import { queryVariables, queryResult } from "./types";
+import { queryVariables, queryResult, pokemon } from "./types";
 import { client } from "../graphql";
 import query from "../graphql/pokemonQuery";
 
@@ -22,7 +22,7 @@ export const PokemonContainer: React.FC = () => {
           return (
             data &&
             data.pokemons.map(
-              ({ number, name, types, attacks, maxCP, maxHP }: any) => (
+              ({ number, name, types, attacks, maxCP, maxHP }: pokemon) => (
                 <PokemonCard
                   number={number}
                   name={name}

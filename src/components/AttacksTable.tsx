@@ -4,7 +4,13 @@ import { TypeTag } from "./TypeTag";
 
 type AttacksTableProps = {
   title: string;
-  attacks: Array<any>;
+  attacks: Array<AttackType>;
+};
+
+type AttackType = {
+  damage: number;
+  name: string;
+  type: string;
 };
 
 const Table = styled.table`
@@ -41,7 +47,7 @@ export const AttacksTable = ({ title, attacks }: AttacksTableProps) => (
         </tr>
       </thead>
       <TableBody>
-        {attacks.map((el: any) => (
+        {attacks.map((el: AttackType) => (
           <tr>
             <AttackName>{el.name}</AttackName>
             <td>
