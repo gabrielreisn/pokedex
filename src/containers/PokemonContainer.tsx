@@ -6,7 +6,7 @@ import query from "../graphql/pokemonQuery";
 
 import { PokemonCard } from "../components/PokemonCard";
 
-const FETCH_FIRST_N_POKEMONS: number = 2;
+const FETCH_FIRST_N_POKEMONS: number = 30;
 
 const variables: queryVariables = {
   first: FETCH_FIRST_N_POKEMONS
