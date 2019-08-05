@@ -1,39 +1,13 @@
 import React from "react";
-import styled from "styled-components";
+import {
+  Table,
+  TableBody,
+  AttackTitle,
+  AttackName,
+  AttackLabel
+} from "./styles";
 import { TypeTag } from "./TypeTag";
-
-type AttacksTableProps = {
-  title: string;
-  attacks: Array<AttackType>;
-};
-
-type AttackType = {
-  damage: number;
-  name: string;
-  type: string;
-};
-
-const Table = styled.table`
-  margin: 10px 5px;
-`;
-
-const TableBody = styled.tbody`
-  font-size: 12px;
-`;
-
-const AttackTitle = styled.span`
-  text-align: left;
-  margin-left: 10px;
-  font-size: 17px;
-  font-weight: 600;
-`;
-
-const AttackName = styled.td`
-  text-align: left;
-`;
-const AttackLabel = styled.th`
-  text-align: left;
-`;
+import { AttacksTableProps, AttackType } from "./types";
 
 export const AttacksTable = ({ title, attacks }: AttacksTableProps) => (
   <React.Fragment>

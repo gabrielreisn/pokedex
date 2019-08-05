@@ -1,16 +1,7 @@
 import React from "react";
+import { PokemonCardProps } from "./types";
 import { PokemonFrontCard } from "./PokemonFrontCard";
 import { PokemonBackCard } from "./PokemonBackCard";
-import { pokemon } from "../containers/types";
-
-type Props = {
-  number: number;
-  name: string;
-  types: [string];
-  attacks: pokemon["attacks"];
-  maxCP: number;
-  maxHP: number;
-};
 
 export const PokemonCard = ({
   number,
@@ -19,7 +10,7 @@ export const PokemonCard = ({
   attacks,
   maxCP,
   maxHP
-}: Props) => {
+}: PokemonCardProps) => {
   const [cardFace, toggleCard] = React.useState(true);
 
   const clickToggle = () => toggleCard(!cardFace);

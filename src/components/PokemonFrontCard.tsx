@@ -1,5 +1,6 @@
 import React from "react";
 import { TypeTag } from "./TypeTag";
+import { PokemonFrontCardProps } from "./types";
 import { imageUrlFromPokemonId } from "../utils";
 import {
   ImageWrapper,
@@ -11,14 +12,12 @@ import {
   ContentBox
 } from "./styles";
 
-type Props = {
-  onClick: () => void;
-  number: number;
-  name: string;
-  types: [string];
-};
-
-export const PokemonFrontCard = ({ number, name, types, onClick }: Props) => {
+export const PokemonFrontCard = ({
+  number,
+  name,
+  types,
+  onClick
+}: PokemonFrontCardProps) => {
   return (
     <CardWrapper onClick={onClick}>
       <ImageWrapper
