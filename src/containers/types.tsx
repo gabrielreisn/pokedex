@@ -27,8 +27,10 @@ export type pokemon = {
   types: [string];
 };
 
+//wtf?????
 export type queryResult = {
   loading: boolean;
   error: Object;
   data: { pokemons: [pokemon] | undefined };
+  pokemons: [pokemon];
 };
