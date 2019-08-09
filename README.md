@@ -7,8 +7,25 @@ https://ts-pokedex.herokuapp.com/
 
 Running the project:
 
-- `$ yarn` ( for instaling the depdendencies )
-- `$ yarn start`
+- Using Node:
+
+  - requrements:
+
+    - node
+    - yarn
+
+  - `$ yarn` ( for instaling the depdendencies )
+  - `$ yarn start`
+
+- Using Docker:
+
+  - requrements:
+
+    - Docker
+    - Docker-compose
+
+  - `$ docker-compose build`
+  - `$ docker-compose up`
 
 Tech used:
 
