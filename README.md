@@ -7,8 +7,25 @@ https://ts-pokedex.herokuapp.com/
 
 Running the project:
 
-- `$ yarn` ( for instaling the depdendencies )
-- `$ yarn start`
+- Using Node:
+
+  - requrements:
+
+    - node
+    - yarn
+
+  - `$ yarn` ( for instaling the depdendencies )
+  - `$ yarn start`
+
+- Using Docker:
+
+  - requrements:
+
+    - Docker
+    - Docker-compose
+
+  - `$ docker-compose build`
+  - `$ docker-compose up`
 
 Tech used:
 
@@ -21,7 +38,7 @@ Tech used:
 
 Future steps:
 
-- [ ] Add docker support
+- [x] Add docker support
 - [x] Add unit/integrtion tests with RTL (react-testing-library)
 - [ ] Add virtual / infinite scroll
 - [ ] Add CSS grid for listing pokemons
