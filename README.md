@@ -22,4 +22,6 @@ Tech used:
 Future steps:
 
 - [ ] Add docker support
-- [ ] Add unit/integrtion tests with RTL (react-testing-library)
+- [x] Add unit/integrtion tests with RTL (react-testing-library)
+- [ ] Add virtual / infinite scroll
+- [ ] Add CSS grid for listing pokemons

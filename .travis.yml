@@ -14,7 +14,7 @@ install:
   - yarn install
 
 script:
-  - yarn test --passWithNoTests
+  - yarn test
 
 before_deploy: "echo starting deploy!"
 deploy:

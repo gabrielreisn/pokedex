@@ -1,0 +1,304 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PokemonBackCard /> matches the snapshot 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="sc-bwzfXH pcdvo"
+      >
+        <div
+          class="sc-htoDjs kaRscw"
+        >
+          <div
+            class="sc-fjdhpX egTBPK"
+          >
+            MAX CP
+            <div
+              class="sc-jTzLTM joxsON"
+            >
+              123
+            </div>
+          </div>
+          <div
+            class="sc-fjdhpX egTBPK"
+          >
+            MAX HP
+            <div
+              class="sc-jTzLTM joxsON"
+            >
+              123
+            </div>
+          </div>
+        </div>
+        <span
+          class="sc-gZMcBi ijIzWX"
+        >
+          Fast Attacks
+        </span>
+        <table
+          class="sc-dnqmqq eTxSPZ"
+        >
+          <thead>
+            <tr>
+              <th
+                class="sc-VigVT jQzTgw"
+              >
+                Attack
+              </th>
+              <th>
+                Type
+              </th>
+              <th>
+                Power
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="sc-iwsKbI bRezmp"
+          >
+            <tr>
+              <td
+                class="sc-gqjmRU bBzpNg"
+              >
+                foo
+              </td>
+              <td>
+                <span
+                  class="sc-gzVnrw cTGLyP"
+                  color="#78C850"
+                >
+                  Grass
+                </span>
+              </td>
+              <td>
+                123
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <span
+          class="sc-gZMcBi ijIzWX"
+        >
+          Special Attacks
+        </span>
+        <table
+          class="sc-dnqmqq eTxSPZ"
+        >
+          <thead>
+            <tr>
+              <th
+                class="sc-VigVT jQzTgw"
+              >
+                Attack
+              </th>
+              <th>
+                Type
+              </th>
+              <th>
+                Power
+              </th>
+            </tr>
+          </thead>
+          <tbody
+            class="sc-iwsKbI bRezmp"
+          >
+            <tr>
+              <td
+                class="sc-gqjmRU bBzpNg"
+              >
+                bar
+              </td>
+              <td>
+                <span
+                  class="sc-gzVnrw fxNcuu"
+                  color="#A8A878"
+                >
+                  Normal
+                </span>
+              </td>
+              <td>
+                123
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="sc-bwzfXH pcdvo"
+    >
+      <div
+        class="sc-htoDjs kaRscw"
+      >
+        <div
+          class="sc-fjdhpX egTBPK"
+        >
+          MAX CP
+          <div
+            class="sc-jTzLTM joxsON"
+          >
+            123
+          </div>
+        </div>
+        <div
+          class="sc-fjdhpX egTBPK"
+        >
+          MAX HP
+          <div
+            class="sc-jTzLTM joxsON"
+          >
+            123
+          </div>
+        </div>
+      </div>
+      <span
+        class="sc-gZMcBi ijIzWX"
+      >
+        Fast Attacks
+      </span>
+      <table
+        class="sc-dnqmqq eTxSPZ"
+      >
+        <thead>
+          <tr>
+            <th
+              class="sc-VigVT jQzTgw"
+            >
+              Attack
+            </th>
+            <th>
+              Type
+            </th>
+            <th>
+              Power
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="sc-iwsKbI bRezmp"
+        >
+          <tr>
+            <td
+              class="sc-gqjmRU bBzpNg"
+            >
+              foo
+            </td>
+            <td>
+              <span
+                class="sc-gzVnrw cTGLyP"
+                color="#78C850"
+              >
+                Grass
+              </span>
+            </td>
+            <td>
+              123
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <span
+        class="sc-gZMcBi ijIzWX"
+      >
+        Special Attacks
+      </span>
+      <table
+        class="sc-dnqmqq eTxSPZ"
+      >
+        <thead>
+          <tr>
+            <th
+              class="sc-VigVT jQzTgw"
+            >
+              Attack
+            </th>
+            <th>
+              Type
+            </th>
+            <th>
+              Power
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          class="sc-iwsKbI bRezmp"
+        >
+          <tr>
+            <td
+              class="sc-gqjmRU bBzpNg"
+            >
+              bar
+            </td>
+            <td>
+              <span
+                class="sc-gzVnrw fxNcuu"
+                color="#A8A878"
+              >
+                Normal
+              </span>
+            </td>
+            <td>
+              123
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
