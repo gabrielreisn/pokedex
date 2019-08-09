@@ -6,44 +6,44 @@ Object {
   "baseElement": <body>
     <div>
       <section
-        class="sc-bwzfXH pcdvo"
+        class="sc-htpNat fYDBex"
       >
         <div
-          class="sc-htoDjs kaRscw"
+          class="sc-dnqmqq fEPOga"
         >
           <div
-            class="sc-fjdhpX egTBPK"
+            class="sc-jzJRlG jOZYYP"
           >
             MAX CP
             <div
-              class="sc-jTzLTM joxsON"
+              class="sc-fjdhpX gFZsNZ"
             >
               123
             </div>
           </div>
           <div
-            class="sc-fjdhpX egTBPK"
+            class="sc-jzJRlG jOZYYP"
           >
             MAX HP
             <div
-              class="sc-jTzLTM joxsON"
+              class="sc-fjdhpX gFZsNZ"
             >
               123
             </div>
           </div>
         </div>
         <span
-          class="sc-gZMcBi ijIzWX"
+          class="sc-gqjmRU eSQaOR"
         >
           Fast Attacks
         </span>
         <table
-          class="sc-dnqmqq eTxSPZ"
+          class="sc-iwsKbI gEzHrG"
         >
           <thead>
             <tr>
               <th
-                class="sc-VigVT jQzTgw"
+                class="sc-jTzLTM fSJIUY"
               >
                 Attack
               </th>
@@ -56,17 +56,17 @@ Object {
             </tr>
           </thead>
           <tbody
-            class="sc-iwsKbI bRezmp"
+            class="sc-gZMcBi djBscS"
           >
             <tr>
               <td
-                class="sc-gqjmRU bBzpNg"
+                class="sc-VigVT jQzTgw"
               >
                 foo
               </td>
               <td>
                 <span
-                  class="sc-gzVnrw cTGLyP"
+                  class="sc-htoDjs laQcFh"
                   color="#78C850"
                 >
                   Grass
@@ -79,17 +79,17 @@ Object {
           </tbody>
         </table>
         <span
-          class="sc-gZMcBi ijIzWX"
+          class="sc-gqjmRU eSQaOR"
         >
           Special Attacks
         </span>
         <table
-          class="sc-dnqmqq eTxSPZ"
+          class="sc-iwsKbI gEzHrG"
         >
           <thead>
             <tr>
               <th
-                class="sc-VigVT jQzTgw"
+                class="sc-jTzLTM fSJIUY"
               >
                 Attack
               </th>
@@ -102,17 +102,17 @@ Object {
             </tr>
           </thead>
           <tbody
-            class="sc-iwsKbI bRezmp"
+            class="sc-gZMcBi djBscS"
           >
             <tr>
               <td
-                class="sc-gqjmRU bBzpNg"
+                class="sc-VigVT jQzTgw"
               >
                 bar
               </td>
               <td>
                 <span
-                  class="sc-gzVnrw fxNcuu"
+                  class="sc-htoDjs ibBKNR"
                   color="#A8A878"
                 >
                   Normal
@@ -129,44 +129,44 @@ Object {
   </body>,
   "container": <div>
     <section
-      class="sc-bwzfXH pcdvo"
+      class="sc-htpNat fYDBex"
     >
       <div
-        class="sc-htoDjs kaRscw"
+        class="sc-dnqmqq fEPOga"
       >
         <div
-          class="sc-fjdhpX egTBPK"
+          class="sc-jzJRlG jOZYYP"
         >
           MAX CP
           <div
-            class="sc-jTzLTM joxsON"
+            class="sc-fjdhpX gFZsNZ"
           >
             123
           </div>
         </div>
         <div
-          class="sc-fjdhpX egTBPK"
+          class="sc-jzJRlG jOZYYP"
         >
           MAX HP
           <div
-            class="sc-jTzLTM joxsON"
+            class="sc-fjdhpX gFZsNZ"
           >
             123
           </div>
         </div>
       </div>
       <span
-        class="sc-gZMcBi ijIzWX"
+        class="sc-gqjmRU eSQaOR"
       >
         Fast Attacks
       </span>
       <table
-        class="sc-dnqmqq eTxSPZ"
+        class="sc-iwsKbI gEzHrG"
       >
         <thead>
           <tr>
             <th
-              class="sc-VigVT jQzTgw"
+              class="sc-jTzLTM fSJIUY"
             >
               Attack
             </th>
@@ -179,17 +179,17 @@ Object {
           </tr>
         </thead>
         <tbody
-          class="sc-iwsKbI bRezmp"
+          class="sc-gZMcBi djBscS"
         >
           <tr>
             <td
-              class="sc-gqjmRU bBzpNg"
+              class="sc-VigVT jQzTgw"
             >
               foo
             </td>
             <td>
               <span
-                class="sc-gzVnrw cTGLyP"
+                class="sc-htoDjs laQcFh"
                 color="#78C850"
               >
                 Grass
@@ -202,17 +202,17 @@ Object {
         </tbody>
       </table>
       <span
-        class="sc-gZMcBi ijIzWX"
+        class="sc-gqjmRU eSQaOR"
       >
         Special Attacks
       </span>
       <table
-        class="sc-dnqmqq eTxSPZ"
+        class="sc-iwsKbI gEzHrG"
       >
         <thead>
           <tr>
             <th
-              class="sc-VigVT jQzTgw"
+              class="sc-jTzLTM fSJIUY"
             >
               Attack
             </th>
@@ -225,17 +225,17 @@ Object {
           </tr>
         </thead>
         <tbody
-          class="sc-iwsKbI bRezmp"
+          class="sc-gZMcBi djBscS"
         >
           <tr>
             <td
-              class="sc-gqjmRU bBzpNg"
+              class="sc-VigVT jQzTgw"
             >
               bar
             </td>
             <td>
               <span
-                class="sc-gzVnrw fxNcuu"
+                class="sc-htoDjs ibBKNR"
                 color="#A8A878"
               >
                 Normal
