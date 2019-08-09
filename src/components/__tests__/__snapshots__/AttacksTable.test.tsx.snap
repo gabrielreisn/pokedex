@@ -6,17 +6,17 @@ Object {
   "baseElement": <body>
     <div>
       <span
-        class="sc-gZMcBi ijIzWX"
+        class="sc-gqjmRU eSQaOR"
       >
         Fast Attacks
       </span>
       <table
-        class="sc-dnqmqq eTxSPZ"
+        class="sc-iwsKbI gEzHrG"
       >
         <thead>
           <tr>
             <th
-              class="sc-VigVT jQzTgw"
+              class="sc-jTzLTM fSJIUY"
             >
               Attack
             </th>
@@ -29,17 +29,17 @@ Object {
           </tr>
         </thead>
         <tbody
-          class="sc-iwsKbI bRezmp"
+          class="sc-gZMcBi djBscS"
         >
           <tr>
             <td
-              class="sc-gqjmRU bBzpNg"
+              class="sc-VigVT jQzTgw"
             >
               fast-attack-1
             </td>
             <td>
               <span
-                class="sc-gzVnrw fxNcuu"
+                class="sc-htoDjs ibBKNR"
                 color="#A8A878"
               >
                 Normal
@@ -51,13 +51,13 @@ Object {
           </tr>
           <tr>
             <td
-              class="sc-gqjmRU bBzpNg"
+              class="sc-VigVT jQzTgw"
             >
               fast-attack-2
             </td>
             <td>
               <span
-                class="sc-gzVnrw fxNcuu"
+                class="sc-htoDjs ibBKNR"
                 color="#A8A878"
               >
                 Normal
@@ -69,13 +69,13 @@ Object {
           </tr>
           <tr>
             <td
-              class="sc-gqjmRU bBzpNg"
+              class="sc-VigVT jQzTgw"
             >
               fast-attack-3
             </td>
             <td>
               <span
-                class="sc-gzVnrw fxNcuu"
+                class="sc-htoDjs ibBKNR"
                 color="#A8A878"
               >
                 Normal
@@ -91,17 +91,17 @@ Object {
   </body>,
   "container": <div>
     <span
-      class="sc-gZMcBi ijIzWX"
+      class="sc-gqjmRU eSQaOR"
     >
       Fast Attacks
     </span>
     <table
-      class="sc-dnqmqq eTxSPZ"
+      class="sc-iwsKbI gEzHrG"
     >
       <thead>
         <tr>
           <th
-            class="sc-VigVT jQzTgw"
+            class="sc-jTzLTM fSJIUY"
           >
             Attack
           </th>
@@ -114,17 +114,17 @@ Object {
         </tr>
       </thead>
       <tbody
-        class="sc-iwsKbI bRezmp"
+        class="sc-gZMcBi djBscS"
       >
         <tr>
           <td
-            class="sc-gqjmRU bBzpNg"
+            class="sc-VigVT jQzTgw"
           >
             fast-attack-1
           </td>
           <td>
             <span
-              class="sc-gzVnrw fxNcuu"
+              class="sc-htoDjs ibBKNR"
               color="#A8A878"
             >
               Normal
@@ -136,13 +136,13 @@ Object {
         </tr>
         <tr>
           <td
-            class="sc-gqjmRU bBzpNg"
+            class="sc-VigVT jQzTgw"
           >
             fast-attack-2
           </td>
           <td>
             <span
-              class="sc-gzVnrw fxNcuu"
+              class="sc-htoDjs ibBKNR"
               color="#A8A878"
             >
               Normal
@@ -154,13 +154,13 @@ Object {
         </tr>
         <tr>
           <td
-            class="sc-gqjmRU bBzpNg"
+            class="sc-VigVT jQzTgw"
           >
             fast-attack-3
           </td>
           <td>
             <span
-              class="sc-gzVnrw fxNcuu"
+              class="sc-htoDjs ibBKNR"
               color="#A8A878"
             >
               Normal

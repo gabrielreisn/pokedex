@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+export const ApplicationWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+
 export const ImageWrapper = styled.img`
   width: 100px;
   align-self: center;

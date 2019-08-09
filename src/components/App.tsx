@@ -1,11 +1,12 @@
 import React from "react";
 import { PokemonContainer } from "../containers/PokemonContainer";
+import { ApplicationWrapper } from "./styles";
 
 const App: React.FC = () => {
   return (
-    <div>
+    <ApplicationWrapper>
       <PokemonContainer />
-    </div>
+    </ApplicationWrapper>
   );
 };
 

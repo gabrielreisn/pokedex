@@ -22,8 +22,8 @@ const props = {
   maxCP: 123,
   maxHP: 123,
   name: "bulbasaur",
-  number: "001",
-  types: ["Gras,poison"]
+  number: 1,
+  types: ["Grass", "poison"]
 };
 
 describe("<PokemonCard />", () => {
