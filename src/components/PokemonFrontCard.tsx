@@ -29,8 +29,8 @@ export const PokemonFrontCard = ({
       </Trapeizoid>
       <ContentBox>
         <TagWrapper>
-          {types.map(value => (
-            <TypeTag value={value} />
+          {types.map((value, i) => (
+            <TypeTag key={`${value} - ${i}`} value={value} />
           ))}
         </TagWrapper>
         <NameWrapper>{name}</NameWrapper>
