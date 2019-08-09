@@ -22,7 +22,7 @@ export const AttacksTable = ({ title, attacks }: AttacksTableProps) => (
       </thead>
       <TableBody>
         {attacks.map((el: AttackType) => (
-          <tr>
+          <tr key={`${el.name} - ${el.damage}`}>
             <AttackName>{el.name}</AttackName>
             <td>
               <TypeTag value={el.type} />
