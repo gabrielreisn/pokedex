@@ -5,7 +5,7 @@ import { imageUrlFromPokemonId } from "../utils";
 import {
   ImageWrapper,
   CardWrapper,
-  Trapeizoid,
+  Trapezoid,
   TagWrapper,
   NameWrapper,
   NumberWrapper,
@@ -24,9 +24,9 @@ export const PokemonFrontCard = ({
         src={imageUrlFromPokemonId(number)}
         alt={`pokemon ${name}`}
       />
-      <Trapeizoid>
+      <Trapezoid>
         <NumberWrapper>#{number}</NumberWrapper>
-      </Trapeizoid>
+      </Trapezoid>
       <ContentBox>
         <TagWrapper>
           {types.map((value, i) => (
