@@ -15,7 +15,7 @@ export const ImageWrapper = styled.img`
 export const CardWrapper = styled.section`
   background: rgba(169, 178, 186, 0.2);
   width: 200px;
-  height: 270px;
+  height: 290px;
   display: flex;
   flex-direction: column;
   margin: 50px auto;
@@ -23,7 +23,7 @@ export const CardWrapper = styled.section`
   border: 1px solid rgba(169, 178, 186, 0.5);
 `;
 
-export const Trapeizoid = styled.div`
+export const Trapezoid = styled.div`
   position: relative;
   border-bottom: 20px solid white;
   border-left: 20px solid transparent;
