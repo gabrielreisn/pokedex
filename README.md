@@ -21,7 +21,7 @@ Running the project:
 
 - Using Docker:
 
-  - requrements:
+  - requirements:
 
     - Docker
     - Docker-compose
