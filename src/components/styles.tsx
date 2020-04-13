@@ -6,9 +6,8 @@ export const ApplicationWrapper = styled.div`
 `;
 
 export const ImageWrapper = styled.img`
-  width: 100px;
+  width: 100%;
   align-self: center;
-  margin: 30px;
   min-height: 100px;
 `;
 
@@ -53,13 +52,12 @@ export const NumberWrapper = styled.span`
 `;
 
 export const ContentBox = styled.div`
-  height: 100%;
   background: white;
   border-radius: 0 0 8px 8px;
   display: flex;
   align-items: flex-start;
   flex-direction: column-reverse;
-  padding: 0 0 10px 0;
+  padding: 10px 0;
 `;
 
 export const Tag = styled.span`
