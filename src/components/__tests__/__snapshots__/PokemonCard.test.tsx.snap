@@ -10,7 +10,7 @@ Object {
       >
         <img
           alt="pokemon bulbasaur"
-          class="self-center w-full"
+          class="self-center w-52 h-52"
           loading="lazy"
           src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/1.png"
         />
@@ -58,7 +58,7 @@ Object {
     >
       <img
         alt="pokemon bulbasaur"
-        class="self-center w-full"
+        class="self-center w-52 h-52"
         loading="lazy"
         src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/1.png"
       />

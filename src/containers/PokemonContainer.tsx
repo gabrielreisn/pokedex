@@ -29,6 +29,7 @@ export const PokemonContainer: React.FC = () => {
     data && data.pokemons.map(
       ({ number, name, types, attacks, maxCP, maxHP }: pokemon) => (
         <PokemonCard
+          key={number+name}
           number={number}
           name={name}
           types={types}
