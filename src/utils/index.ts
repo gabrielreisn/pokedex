@@ -1,8 +1,8 @@
-type pokemonTagType = {
+type TagType = {
   [key: string]: string;
 };
 
-const pokemonTypes: pokemonTagType = {
+const pokemonTypes: TagType = {
   Normal: "#A8A878",
   Fighting: "#C03028",
   Flying: "#A890F0",
