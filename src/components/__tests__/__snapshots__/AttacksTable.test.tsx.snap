@@ -6,17 +6,17 @@ Object {
   "baseElement": <body>
     <div>
       <span
-        class="sc-gqjmRU eSQaOR"
+        class="text-left ml-2 text-lg font-semibold"
       >
         Fast Attacks
       </span>
       <table
-        class="sc-iwsKbI gEzHrG"
+        class="my-3 mx-1"
       >
         <thead>
           <tr>
             <th
-              class="sc-jTzLTM fSJIUY"
+              class="text-left"
             >
               Attack
             </th>
@@ -29,18 +29,18 @@ Object {
           </tr>
         </thead>
         <tbody
-          class="sc-gZMcBi djBscS"
+          class="text-xs"
         >
           <tr>
             <td
-              class="sc-VigVT jQzTgw"
+              class="text-left"
             >
               fast-attack-1
             </td>
             <td>
               <span
-                class="sc-htoDjs ibBKNR"
-                color="#A8A878"
+                class="rounded"
+                style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
               >
                 Normal
               </span>
@@ -51,14 +51,14 @@ Object {
           </tr>
           <tr>
             <td
-              class="sc-VigVT jQzTgw"
+              class="text-left"
             >
               fast-attack-2
             </td>
             <td>
               <span
-                class="sc-htoDjs ibBKNR"
-                color="#A8A878"
+                class="rounded"
+                style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
               >
                 Normal
               </span>
@@ -69,14 +69,14 @@ Object {
           </tr>
           <tr>
             <td
-              class="sc-VigVT jQzTgw"
+              class="text-left"
             >
               fast-attack-3
             </td>
             <td>
               <span
-                class="sc-htoDjs ibBKNR"
-                color="#A8A878"
+                class="rounded"
+                style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
               >
                 Normal
               </span>
@@ -91,17 +91,17 @@ Object {
   </body>,
   "container": <div>
     <span
-      class="sc-gqjmRU eSQaOR"
+      class="text-left ml-2 text-lg font-semibold"
     >
       Fast Attacks
     </span>
     <table
-      class="sc-iwsKbI gEzHrG"
+      class="my-3 mx-1"
     >
       <thead>
         <tr>
           <th
-            class="sc-jTzLTM fSJIUY"
+            class="text-left"
           >
             Attack
           </th>
@@ -114,18 +114,18 @@ Object {
         </tr>
       </thead>
       <tbody
-        class="sc-gZMcBi djBscS"
+        class="text-xs"
       >
         <tr>
           <td
-            class="sc-VigVT jQzTgw"
+            class="text-left"
           >
             fast-attack-1
           </td>
           <td>
             <span
-              class="sc-htoDjs ibBKNR"
-              color="#A8A878"
+              class="rounded"
+              style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
             >
               Normal
             </span>
@@ -136,14 +136,14 @@ Object {
         </tr>
         <tr>
           <td
-            class="sc-VigVT jQzTgw"
+            class="text-left"
           >
             fast-attack-2
           </td>
           <td>
             <span
-              class="sc-htoDjs ibBKNR"
-              color="#A8A878"
+              class="rounded"
+              style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
             >
               Normal
             </span>
@@ -154,14 +154,14 @@ Object {
         </tr>
         <tr>
           <td
-            class="sc-VigVT jQzTgw"
+            class="text-left"
           >
             fast-attack-3
           </td>
           <td>
             <span
-              class="sc-htoDjs ibBKNR"
-              color="#A8A878"
+              class="rounded"
+              style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
             >
               Normal
             </span>

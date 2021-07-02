@@ -6,11 +6,11 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-jzJRlG jOZYYP"
+        class="text-xs rounded-md p-1 text-gray-500 bg-white w-16 text-center"
       >
         max cp
         <div
-          class="sc-fjdhpX gFZsNZ"
+          class="text-black text-sm text-center"
         >
           456
         </div>
@@ -19,11 +19,11 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-jzJRlG jOZYYP"
+      class="text-xs rounded-md p-1 text-gray-500 bg-white w-16 text-center"
     >
       max cp
       <div
-        class="sc-fjdhpX gFZsNZ"
+        class="text-black text-sm text-center"
       >
         456
       </div>

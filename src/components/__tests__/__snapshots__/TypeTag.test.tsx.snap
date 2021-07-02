@@ -6,8 +6,8 @@ Object {
   "baseElement": <body>
     <div>
       <span
-        class="sc-htoDjs ibBKNR"
-        color="#A8A878"
+        class="rounded"
+        style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
       >
         Normal
       </span>
@@ -15,8 +15,8 @@ Object {
   </body>,
   "container": <div>
     <span
-      class="sc-htoDjs ibBKNR"
-      color="#A8A878"
+      class="rounded"
+      style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
     >
       Normal
     </span>
