@@ -1,6 +1,4 @@
-import { gql } from "apollo-boost";
-
-const query = gql`
+const query = `
   query getPokemon($first: Int!) {
     pokemons(first: $first) {
       id
