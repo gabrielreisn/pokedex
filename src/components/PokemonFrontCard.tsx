@@ -11,7 +11,7 @@ export const PokemonFrontCard = ({
   return (
     <div className=' bg-gray-100 w-52 h-80 flex flex-col justify-around my-6 mx-auto rounded-lg border border-gray-500' onClick={onClick}>
       <img
-        className="self-center"
+        className="self-center w-full"
         loading="lazy"
         src={imageUrlFromPokemonId(number)}
         alt={`pokemon ${name}`}
