@@ -5,45 +5,45 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="sc-htpNat ejezQg"
+      <div
+        class=" bg-gray-100 w-52 h-80 flex flex-col my-6 mx-auto rounded-lg border border-gray-500 overflow-y-auto"
       >
         <div
-          class="sc-dnqmqq fEPOga"
+          class="flex justify-evenly px-0 py-3"
         >
           <div
-            class="sc-jzJRlG jOZYYP"
+            class="text-xs rounded-md p-1 text-gray-500 bg-white w-16 text-center"
           >
             MAX CP
             <div
-              class="sc-fjdhpX gFZsNZ"
+              class="text-black text-sm text-center"
             >
               123
             </div>
           </div>
           <div
-            class="sc-jzJRlG jOZYYP"
+            class="text-xs rounded-md p-1 text-gray-500 bg-white w-16 text-center"
           >
             MAX HP
             <div
-              class="sc-fjdhpX gFZsNZ"
+              class="text-black text-sm text-center"
             >
               123
             </div>
           </div>
         </div>
         <span
-          class="sc-gqjmRU eSQaOR"
+          class="text-left ml-2 text-lg font-semibold"
         >
           Fast Attacks
         </span>
         <table
-          class="sc-iwsKbI gEzHrG"
+          class="my-3 mx-1"
         >
           <thead>
             <tr>
               <th
-                class="sc-jTzLTM fSJIUY"
+                class="text-left"
               >
                 Attack
               </th>
@@ -56,18 +56,18 @@ Object {
             </tr>
           </thead>
           <tbody
-            class="sc-gZMcBi djBscS"
+            class="text-xs"
           >
             <tr>
               <td
-                class="sc-VigVT jQzTgw"
+                class="text-left"
               >
                 foo
               </td>
               <td>
                 <span
-                  class="sc-htoDjs laQcFh"
-                  color="#78C850"
+                  class="rounded"
+                  style="background: rgb(120, 200, 80); padding: 1px 3px; margin: 0px 3px;"
                 >
                   Grass
                 </span>
@@ -79,17 +79,17 @@ Object {
           </tbody>
         </table>
         <span
-          class="sc-gqjmRU eSQaOR"
+          class="text-left ml-2 text-lg font-semibold"
         >
           Special Attacks
         </span>
         <table
-          class="sc-iwsKbI gEzHrG"
+          class="my-3 mx-1"
         >
           <thead>
             <tr>
               <th
-                class="sc-jTzLTM fSJIUY"
+                class="text-left"
               >
                 Attack
               </th>
@@ -102,18 +102,18 @@ Object {
             </tr>
           </thead>
           <tbody
-            class="sc-gZMcBi djBscS"
+            class="text-xs"
           >
             <tr>
               <td
-                class="sc-VigVT jQzTgw"
+                class="text-left"
               >
                 bar
               </td>
               <td>
                 <span
-                  class="sc-htoDjs ibBKNR"
-                  color="#A8A878"
+                  class="rounded"
+                  style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
                 >
                   Normal
                 </span>
@@ -124,49 +124,49 @@ Object {
             </tr>
           </tbody>
         </table>
-      </section>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <section
-      class="sc-htpNat ejezQg"
+    <div
+      class=" bg-gray-100 w-52 h-80 flex flex-col my-6 mx-auto rounded-lg border border-gray-500 overflow-y-auto"
     >
       <div
-        class="sc-dnqmqq fEPOga"
+        class="flex justify-evenly px-0 py-3"
       >
         <div
-          class="sc-jzJRlG jOZYYP"
+          class="text-xs rounded-md p-1 text-gray-500 bg-white w-16 text-center"
         >
           MAX CP
           <div
-            class="sc-fjdhpX gFZsNZ"
+            class="text-black text-sm text-center"
           >
             123
           </div>
         </div>
         <div
-          class="sc-jzJRlG jOZYYP"
+          class="text-xs rounded-md p-1 text-gray-500 bg-white w-16 text-center"
         >
           MAX HP
           <div
-            class="sc-fjdhpX gFZsNZ"
+            class="text-black text-sm text-center"
           >
             123
           </div>
         </div>
       </div>
       <span
-        class="sc-gqjmRU eSQaOR"
+        class="text-left ml-2 text-lg font-semibold"
       >
         Fast Attacks
       </span>
       <table
-        class="sc-iwsKbI gEzHrG"
+        class="my-3 mx-1"
       >
         <thead>
           <tr>
             <th
-              class="sc-jTzLTM fSJIUY"
+              class="text-left"
             >
               Attack
             </th>
@@ -179,18 +179,18 @@ Object {
           </tr>
         </thead>
         <tbody
-          class="sc-gZMcBi djBscS"
+          class="text-xs"
         >
           <tr>
             <td
-              class="sc-VigVT jQzTgw"
+              class="text-left"
             >
               foo
             </td>
             <td>
               <span
-                class="sc-htoDjs laQcFh"
-                color="#78C850"
+                class="rounded"
+                style="background: rgb(120, 200, 80); padding: 1px 3px; margin: 0px 3px;"
               >
                 Grass
               </span>
@@ -202,17 +202,17 @@ Object {
         </tbody>
       </table>
       <span
-        class="sc-gqjmRU eSQaOR"
+        class="text-left ml-2 text-lg font-semibold"
       >
         Special Attacks
       </span>
       <table
-        class="sc-iwsKbI gEzHrG"
+        class="my-3 mx-1"
       >
         <thead>
           <tr>
             <th
-              class="sc-jTzLTM fSJIUY"
+              class="text-left"
             >
               Attack
             </th>
@@ -225,18 +225,18 @@ Object {
           </tr>
         </thead>
         <tbody
-          class="sc-gZMcBi djBscS"
+          class="text-xs"
         >
           <tr>
             <td
-              class="sc-VigVT jQzTgw"
+              class="text-left"
             >
               bar
             </td>
             <td>
               <span
-                class="sc-htoDjs ibBKNR"
-                color="#A8A878"
+                class="rounded"
+                style="background: rgb(168, 168, 120); padding: 1px 3px; margin: 0px 3px;"
               >
                 Normal
               </span>
@@ -247,7 +247,7 @@ Object {
           </tr>
         </tbody>
       </table>
-    </section>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

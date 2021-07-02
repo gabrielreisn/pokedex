@@ -5,99 +5,99 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section
-        class="sc-htpNat ejezQg"
+      <div
+        class=" bg-gray-100 w-52 h-80 flex flex-col justify-around my-6 mx-auto rounded-lg border border-gray-500"
       >
         <img
           alt="pokemon bulbasaur"
-          class="sc-bwzfXH bDSmTD"
+          class="self-center w-full"
           loading="lazy"
           src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/1.png"
         />
         <div
-          class="sc-bxivhb gQVcmr"
+          class="rounded-full py-0 px-3 bg-gray-400 w-16 text-center self-center mb-2"
         >
           <span
-            class="sc-bZQynM bPyFd"
+            class="relative font-semibold text-white"
           >
             #
             1
           </span>
         </div>
         <div
-          class="sc-gzVnrw ydUSe"
+          class="bg-white flex items-start flex-col-reverse py-3 px-0 rounded-b-lg"
         >
           <div
-            class="sc-ifAKCX fNSeeV"
+            class="self-start my-1 mx-3"
           >
             <span
-              class="sc-htoDjs laQcFh"
-              color="#78C850"
+              class="rounded"
+              style="background: rgb(120, 200, 80); padding: 1px 3px; margin: 0px 3px;"
             >
               Grass
             </span>
             <span
-              class="sc-htoDjs fKwsuq"
-              color="#68A090"
+              class="rounded"
+              style="background: rgb(104, 160, 144); padding: 1px 3px; margin: 0px 3px;"
             >
               poison
             </span>
           </div>
           <div
-            class="sc-EHOje gbETiI"
+            class="self-start my-0 mx-3 font-light"
           >
             bulbasaur
           </div>
         </div>
-      </section>
+      </div>
     </div>
   </body>,
   "container": <div>
-    <section
-      class="sc-htpNat ejezQg"
+    <div
+      class=" bg-gray-100 w-52 h-80 flex flex-col justify-around my-6 mx-auto rounded-lg border border-gray-500"
     >
       <img
         alt="pokemon bulbasaur"
-        class="sc-bwzfXH bDSmTD"
+        class="self-center w-full"
         loading="lazy"
         src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/1.png"
       />
       <div
-        class="sc-bxivhb gQVcmr"
+        class="rounded-full py-0 px-3 bg-gray-400 w-16 text-center self-center mb-2"
       >
         <span
-          class="sc-bZQynM bPyFd"
+          class="relative font-semibold text-white"
         >
           #
           1
         </span>
       </div>
       <div
-        class="sc-gzVnrw ydUSe"
+        class="bg-white flex items-start flex-col-reverse py-3 px-0 rounded-b-lg"
       >
         <div
-          class="sc-ifAKCX fNSeeV"
+          class="self-start my-1 mx-3"
         >
           <span
-            class="sc-htoDjs laQcFh"
-            color="#78C850"
+            class="rounded"
+            style="background: rgb(120, 200, 80); padding: 1px 3px; margin: 0px 3px;"
           >
             Grass
           </span>
           <span
-            class="sc-htoDjs fKwsuq"
-            color="#68A090"
+            class="rounded"
+            style="background: rgb(104, 160, 144); padding: 1px 3px; margin: 0px 3px;"
           >
             poison
           </span>
         </div>
         <div
-          class="sc-EHOje gbETiI"
+          class="self-start my-0 mx-3 font-light"
         >
           bulbasaur
         </div>
       </div>
-    </section>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

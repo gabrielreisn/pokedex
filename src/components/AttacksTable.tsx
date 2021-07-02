@@ -1,36 +1,28 @@
-import React from "react";
-import {
-  Table,
-  TableBody,
-  AttackTitle,
-  AttackName,
-  AttackLabel
-} from "./styles";
 import { TypeTag } from "./TypeTag";
 import { AttacksTableProps, AttackType } from "./types";
 
 export const AttacksTable = ({ title, attacks }: AttacksTableProps) => (
-  <React.Fragment>
-    <AttackTitle>{title}</AttackTitle>
-    <Table>
+  <>
+    <span className='text-left ml-2 text-lg font-semibold'>{title}</span>
+    <table className='my-3 mx-1'>
       <thead>
         <tr>
-          <AttackLabel>Attack</AttackLabel>
+          <th className='text-left'>Attack</th>
           <th>Type</th>
           <th>Power</th>
         </tr>
       </thead>
-      <TableBody>
+      <tbody className='text-xs'>
         {attacks.map((el: AttackType) => (
           <tr key={`${el.name} - ${el.damage}`}>
-            <AttackName>{el.name}</AttackName>
+            <td className='text-left'>{el.name}</td>
             <td>
               <TypeTag value={el.type} />
             </td>
             <td>{el.damage}</td>
           </tr>
         ))}
-      </TableBody>
-    </Table>
-  </React.Fragment>
+      </tbody>
+    </table>
+  </>
 );
