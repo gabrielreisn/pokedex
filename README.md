@@ -34,7 +34,7 @@ Tech used:
 ```
  - React
  - TypeScript
- - Apollo/graphql
+ - Urql/graphql
  - Styled-components
 ```
 
@@ -42,4 +42,5 @@ Future steps:
 
 - [x] Add docker support
 - [x] Add unit/integrtion tests with RTL (react-testing-library)
+- [x] Image lazy-loading at browser level https://www.loom.com/share/fa7f0c8223324155bbdce72c7735ff50
 - [ ] Add virtual / infinite scroll

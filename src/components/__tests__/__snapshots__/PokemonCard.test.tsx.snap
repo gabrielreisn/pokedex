@@ -11,6 +11,7 @@ Object {
         <img
           alt="pokemon bulbasaur"
           class="sc-bwzfXH bDSmTD"
+          loading="lazy"
           src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/1.png"
         />
         <div
@@ -58,6 +59,7 @@ Object {
       <img
         alt="pokemon bulbasaur"
         class="sc-bwzfXH bDSmTD"
+        loading="lazy"
         src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/1.png"
       />
       <div

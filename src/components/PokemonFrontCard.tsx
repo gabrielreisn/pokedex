@@ -21,6 +21,7 @@ export const PokemonFrontCard = ({
   return (
     <CardWrapper onClick={onClick}>
       <ImageWrapper
+        loading="lazy"
         src={imageUrlFromPokemonId(number)}
         alt={`pokemon ${name}`}
       />
